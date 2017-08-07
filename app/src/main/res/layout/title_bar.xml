@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titleWrapper"
+    android:layout_width="match_parent"
+    android:layout_height="48dip" >
+
+    <!-- Background Image -->
+
+    <ImageView
+        android:id="@+id/titleBarBackgrooundIV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/navbar_noword_back" />
+
+    <!-- logo -->
+
+    <!-- Title text -->
+
+    <TextView
+        android:id="@+id/titleBarTV"
+        style="@style/PageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxWidth="@dimen/maxWidth"
+        android:singleLine="true"
+        android:textColor="#FFF0F0F0"
+        android:text="FR" />
+
+    <!-- menu -->
+
+    <ImageView
+        android:id="@+id/right_image"
+        android:layout_width="48dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:padding="3dp"
+        android:src="@drawable/mirror2"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/titleBarHomeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home_icon"
+        android:visibility="visible"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

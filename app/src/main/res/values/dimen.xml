@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="horizontalPadding">10dip</dimen>
+    <dimen name="springboardTextSize">12sp</dimen>
+    <dimen name="verticalPadding">60dip</dimen>
+    <dimen name="maxWidth">300dip</dimen>
+</resources>
